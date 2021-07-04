@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import NavBar from './navbar';
+import Carousel from './carousel';
+import Card from './card';
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <NavBar/>
+    <Carousel/>
+    <Card/>
   </React.StrictMode>,
   document.getElementById('root')
 );
